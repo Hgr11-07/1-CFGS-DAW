@@ -1,0 +1,151 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #f4f4f4; /* Fondo claro, neutro */
+}
+
+/* ======== CABECERA ======== */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #002d62; /* Azul oscuro LaLiga */
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.2em;
+  color: #ffcc00; /* Dorado */
+  margin-bottom: 5px;
+}
+
+.hero h2 {
+  color: #ffdede;
+  margin-bottom: 15px;
+}
+
+.hero img {
+  width: 140px;
+  margin-top: 10px;
+}
+
+.autor {
+  color: #ffe680;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.contenedor {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* ======== SECCIONES ======== */
+.seccion {
+  background-color: #ffffff; /* Blanco plano */
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  color: #333333;
+}
+
+.seccion h3 {
+  border-bottom: 2px solid #002d62;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  color: #002d62;
+  font-size: 1.2em;
+}
+
+/* ======== FORMULARIO ======== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #cc0000; /* Rojo LaLiga */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #a00000;
+}
+
+/* ======== LISTAS ======== */
+.lista-equipos,
+.lista-goleadores {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-equipos li,
+.lista-goleadores li {
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Colores planos y equilibrados */
+.championsleague {
+  background-color: #e0e8f9; /* Azul suave */
+  color: #002d62;
+  border-left: 5px solid #002d62;
+}
+
+.europaleague {
+  background-color: #fff3cd; /* Amarillo suave */
+  color: #a05a00;
+  border-left: 5px solid #d49b00;
+}
+
+.goleador {
+  background-color: #e9f7ef; /* Verde claro */
+  color: #0f5132;
+  border-left: 5px solid #198754;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #444;
+  font-size: 14px;
+  background-color: #e1e1e1;
+  border-top: 2px solid #cccccc;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion {
+    width: 95%;
+  }
+}

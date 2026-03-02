@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.4">
+  <diagram name="Página-1" id="rDIQudbgtT2qWNlvPpW0">
+    <mxGraphModel dx="1042" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-1" target="Y-S2IE-EZ36FI40UtAp9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-1" value="INICIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-2" target="Y-S2IE-EZ36FI40UtAp9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-2" value="letra: CARACTER" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-4" target="Y-S2IE-EZ36FI40UtAp9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-4" value="&lt;div&gt;ESCRIBIR: &quot;Introduce un caracter y te dire si es una vocal&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LEER: letra&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-6" target="Y-S2IE-EZ36FI40UtAp9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-6" target="Y-S2IE-EZ36FI40UtAp9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-6" value="&lt;div&gt;letra=&quot;A&quot;&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;letra=&quot;E&quot;&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;letra=&quot;I&quot;&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;letra=&quot;O&quot;&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;letra=&quot;U&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="525" width="120" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-8" target="Y-S2IE-EZ36FI40UtAp9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-8" target="Y-S2IE-EZ36FI40UtAp9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-8" value="letra=&quot;A&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-10" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-10" value="ESCRIBIR: &quot;Es la primera vocal (A)&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="712.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-12" value="ESCRIBIR: &quot;Tu caracter no es una vocal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-14" target="Y-S2IE-EZ36FI40UtAp9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-14" target="Y-S2IE-EZ36FI40UtAp9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-14" value="letra=&quot;E&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-16" value="ESCRIBIR: &quot;Es la segunda vocal (E)&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="712.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-18" target="Y-S2IE-EZ36FI40UtAp9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-18" target="Y-S2IE-EZ36FI40UtAp9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-18" value="letra=&quot;I&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-20" value="ESCRIBIR: &quot;Es la tercera vocal (I)&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="712.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-22" target="Y-S2IE-EZ36FI40UtAp9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-22" target="Y-S2IE-EZ36FI40UtAp9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-22" value="letra=&quot;O&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-24" value="ESCRIBIR: &quot;Es la cuarta vocal (O)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="712.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-26" value="ESCRIBIR: &quot;Es la quinta vocal (U)&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-28" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-29" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-30" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-31" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-32" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-33" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-34" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-35" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-36" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-37" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-38" value="FIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-10" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="830" as="sourcePoint" />
+            <mxPoint x="610" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-12" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="830" as="sourcePoint" />
+            <mxPoint x="610" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-16" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="830" as="sourcePoint" />
+            <mxPoint x="610" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-20" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="830" as="sourcePoint" />
+            <mxPoint x="990" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-24" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="830" as="sourcePoint" />
+            <mxPoint x="990" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-S2IE-EZ36FI40UtAp9-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y-S2IE-EZ36FI40UtAp9-26" target="Y-S2IE-EZ36FI40UtAp9-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="830" as="sourcePoint" />
+            <mxPoint x="990" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

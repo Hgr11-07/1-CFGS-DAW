@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 300%;
+  background-color: rgb(138, 197, 148);
+  padding: 90px 30px 30px 90px; /*Aquí se añade un padding al primer encabezado*/
+  border: 5px solid black;
+}
+h2 {
+  background-color: rgb(164, 226, 240);
+  padding: 20px 50px;
+  font-family: fantasy; /*Aquí se añade una otra fuente de texto al segundo encabezado*/
+}
+p {
+  color: rgb(0, 0, 0);
+  background-color: rgb(73, 98, 69);
+  padding: 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+    color:blueviolet;
+    text-decoration: underline;
+}
+li.naranjita {
+  color: orange;
+  font-weight:bolder;
+}

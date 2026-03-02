@@ -1,0 +1,13 @@
+﻿EJERCICIO 2
+
+
+Fabricante: ASUS
+
+
+Tipo de BIOS: 317
+
+
+Memoria: 16384 mb
+
+
+Velocidad del procesador: 2340 rpm

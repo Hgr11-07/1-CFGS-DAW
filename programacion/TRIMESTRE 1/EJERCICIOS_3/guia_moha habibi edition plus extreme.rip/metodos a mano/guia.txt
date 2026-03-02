@@ -1,0 +1,19 @@
+
+
+## **Guía de funciones resumida**
+
+1. **Iniciales de un nombre completo**: obtiene las iniciales de nombre y apellidos, separadas por puntos.
+
+2. **Formatear número de teléfono**: toma un número y lo separa con guiones (ej. 999-99-99-99).
+
+3. **Intercalar números en una cadena**: mezcla números dentro de una cadena (ej. `"123"` → `"c1a2d3ena"`).
+
+4. **Comprobar coincidencia entre primera y última palabra**: verifica si la primera palabra de una cadena coincide con la última.
+
+5. **Reemplazar palabra o letra en un texto**: permite sustituir caracteres o palabras específicas en un string.
+
+6. **Manejar frases completas (“bolly”)**:
+
+   * Quita espacios sobrantes.
+   * Invierte la frase.
+   * Cuenta cuántas palabras contiene.

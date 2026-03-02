@@ -1,0 +1,23 @@
+CREATE DATABASE Base2;
+CREATE TABLE
+IF NOT EXISTS Inventario(
+
+    inventarioID INT AUTO_INCREMENT,
+    modelo VARCHAR(20) NOT NULL UNIQUE,
+    precio DECIMAL(10,2) NOT NULL CHECK(precio>0),
+    stock INT DEFAULT 5,
+    color VARCHAR(20) NOT NULL,
+    entrada TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(inventarioID)
+
+)
+
+ALTER TABLE Inventario(
+
+    ADD COLUMN descripcion VARCHAR(1000),
+    MODIFY precio DECIMAL(4,2) NOT NULL CHECK(precio>0),
+    ADD CONSTRAINT stock CHECK (stock>=0),
+    MODIFY color VARCHAR(30) NOT NULL,
+    ADD COLUMN promocionada BOOLEAN DEFAULT FALSE
+
+)

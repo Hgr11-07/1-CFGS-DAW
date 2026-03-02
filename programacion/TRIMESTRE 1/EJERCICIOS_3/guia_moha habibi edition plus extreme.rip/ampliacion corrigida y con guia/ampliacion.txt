@@ -1,0 +1,18 @@
+1. nombre apellido 1y2 separados por espacio
+
+
+2.mete numero teléfono y telo separa por -
+
+
+3. cadena 123 = c1a2d3ena
+
+
+4.ver si str concide la primara palabra con ultima
+
+
+5. jose a Josito
+
+
+bolly. mete frase te muestra sin espacios sobrantes
+	te muestra arreves
+	cuantas palabras tiene

@@ -1,0 +1,23 @@
+1. cuantas veces a esta en str
+
+2. cuantas min mayu y num hay en str
+
+3. palabra se lee arreves igual
+
+4. busca palabras en str
+
+5. remplaza todas 'o' de un str
+
+6. cuantas vocales tiene str
+
+7. str holaquease  se vuelve hlqsoaueae orden: consonantes,vocales
+
+8.contraseña y usuario contaseña > 7 con letra digito y alfanumerico
+
+9. los numero de str se suman
+
+10. web http://www.marca.com valida
+
+11.ahorcado
+
+12. correo valido

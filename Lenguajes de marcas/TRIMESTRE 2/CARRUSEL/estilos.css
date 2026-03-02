@@ -1,0 +1,27 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+nav ul{
+  padding:10px;
+  list-style:none;
+  display:flex;
+}
+nav ul a{
+  flex:auto;
+  padding:10px;
+  background-color:rgb(255, 255, 198);
+  font-size:20px;
+  border:1px solid blue;
+  text-align:center;
+  color:blue;
+  text-decoration:none;
+}
+nav ul a:hover{
+  color:yellow;
+  background-color:blue;
+  border:3px solid yellow;
+  
+}

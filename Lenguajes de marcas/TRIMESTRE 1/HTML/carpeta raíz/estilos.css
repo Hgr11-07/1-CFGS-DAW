@@ -1,0 +1,50 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem;
+  padding-right: 3rem
+}
+
+.carousel > li {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  flex: 0 0 auto;
+  list-style: none;
+}
+
+.carousel img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel::scroll-button(left) {
+  content: "Izquierda";
+}
+
+.carousel::scroll-button(right) {
+  content: "Derecha";
+}
+
+.carousel::scroll-button(*) {
+  background: #0008;
+  color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.controls a {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,47 @@
+EJ 8: SELECT C FROM componentes WHERE peso=(select min(peso) FROM componentes); 
+
+EJ 9: SELECT p from envios WHERE T='T1' AND P IN(select p from envios WHERE T='T2');
+
+SELECT P, c.color, a.CIUDAD FROM envios e INNER JOIN articulos a ON e.T=a.T INNER JOIN componentes c ON e.C=c.C WHERE c.COLOR='ROJO' AND (a.CIUDAD='MADRID' OR a.CIUDAD='SEVILLA'); 
+
+EJ 11: SELECT c FROM envios WHERE t IN (SELECT t FROM articulos WHERE ciudad='SEVILLA') AND p IN (SELECT p FROM proveedores WHERE ciudad='SEVILLA'); 
+
+EJ 12: SELECT T FROM envios WHERE C IN(SELECT C FROM envios WHERE P='P1');
+
+EJ 13: SELECT DISTINCT P.CIUDAD, E.C, A.CIUDAD FROM ENVIOS E JOIN PROVEEDORES P ON E.P = P.P JOIN ARTICULOS A ON E.T = A.T; 
+
+EJ 14: SELECT DISTINCT P.CIUDAD, E.C, A.CIUDAD FROM ENVIOS E JOIN PROVEEDORES P ON E.P = P.P JOIN ARTICULOS A ON E.T = A.T WHERE NOT(P.CIUDAD=A.CIUDAD);
+
+EJ 15: SELECT COUNT(C), COUNT(DISTINCT C), SUM(CANTIDAD) FROM envios WHERE P='P2'; 
+
+EJ 16: SELECT C, T, SUM(CANTIDAD) AS cantidadTotal FROM ENVIOS GROUP BY C, T;
+
+EJ 17: SELECT DISTINCT envios.T FROM envios INNER JOIN proveedores p ON envios.P=p.P INNER JOIN articulos t ON envios.T=t.T WHERE NOT(p.CIUDAD='MADRID') AND NOT (p.CIUDAD=t.CIUDAD); 
+
+EJ 18: SELECT DISTINCT p from envios WHERE c IN(SELECT c FROM envios WHERE p IN(SELECT P FROM envios INNER JOIN componentes c ON envios.c=c.C WHERE color='ROJO'));
+
+EJ 19: SELECT DISTINCT T FROM envios where c IN (SELECT c FROM envios GROUP BY c HAVING AVG(cantidad)>320);ç
+
+EJ 20: SELECT DISTINCT p from envios e1 WHERE cantidad >(SELECT AVG(cantidad) FROM envios e2 where e1.C=e2.C);
+
+EJ 21: SELECT c from envios WHERE p='P2' AND t='T2';
+
+EJ 22: SELECT envios.* from envios INNER JOIN componentes ON envios.c=componentes.c where NOT color='ROJO'; 
+
+EJ 23: SELECT DISTINCT c from envios where t='T1' AND c in(SELECT c from envios where t='T2');
+
+EJ 24: SELECT p, COUNT(*) from envios where c IN (SELECT c FROM componentes WHERE color='ROJO') GROUP BY p; 
+
+EJ 25: SELECT DISTINCT c.color FROM componentes c WHERE c.c in(SELECT DISTINCT c from envios e WHERE e.P='P1'); 
+
+EJ 26: SELECT e.*, p.CIUDAD FROM envios e NATURAL JOIN proveedores p NATURAL JOIN articulos a NATURAL JOIN componentes c WHERE p.CIUDAD=a.CIUDAD AND a.CIUDAD=c.CIUDAD;
+
+EJ 27: SELECT c.CNOMBRE FROM componentes c WHERE c IN(SELECT c FROM envios GROUP BY c HAVING SUM(cantidad>500)); 
+
+EJ 28: SELECT p FROM proveedores p WHERE p.CIUDAD = 'SEVILLA' AND p IN (SELECT p FROM envios e GROUP BY p HAVING COUNT(DISTINCT t)<=2);
+
+EJ 29: SELECT t FROM envios e NATURAL JOIN componentes c GROUP BY t HAVING COUNT(DISTINCT c.CIUDAD) = 1;
+
+EJ 30: SELECT t FROM envios e GROUP BY t HAVING COUNT (DISTINCT c) = (select count(*) FROM componentes);
+
+EJ 31: SELECT p, t FROM envios e NATURAL JOIN componentes c WHERE c.color='ROJO' GROUP BY p, t HAVING COUNT(*)>1;
