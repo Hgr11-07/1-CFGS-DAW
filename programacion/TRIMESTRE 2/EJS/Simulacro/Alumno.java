@@ -22,8 +22,11 @@ public class Alumno implements Comparable<Alumno>{
 		return this.nombre;
 	}
 	
-	public void setNota(double nota) {
-		this.nota=nota;
+	public void setNota(double nota) throws NotaInvalidaException {
+	    if (nota < 0 || nota > 10) {
+	        throw new NotaInvalidaException();
+	    }
+	    this.nota = nota;
 	}
 	
 	public double getNota() {

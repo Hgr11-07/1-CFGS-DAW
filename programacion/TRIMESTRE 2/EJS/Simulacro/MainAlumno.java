@@ -9,7 +9,7 @@ public class MainAlumno {
 	
 	public static void main(String[] args) throws NotaInvalidaException{
 		
-		String nombre;
+		String nombre = "";
 		double nota=0;
 		Alumno arrayAlumno[]= new Alumno[5];	//Creamos un array que contiene Alumnos de longitud 5.
 		Alumno alumno1=null;	//Inicializamos en null, da igual ya que será modificado luego.
@@ -28,7 +28,7 @@ public class MainAlumno {
 				System.out.println(n);
 				nota=pedirNota("Introduce la nota del alumno:");
 			}
-			
+			alumno1=new Alumno(nombre, nota);
 		}
 		teclado.nextLine();	//Limpiamos el teclado
 		try {
@@ -40,6 +40,7 @@ public class MainAlumno {
 					System.out.println(n);
 					nota=pedirNota("Introduce la nota del alumno:");
 				}
+				alumno2=new Alumno(nombre, nota);
 			}
 		teclado.nextLine();	
 		try {
@@ -51,6 +52,7 @@ public class MainAlumno {
 					System.out.println(n);
 					nota=pedirNota("Introduce la nota del alumno:");
 				}
+				alumno3=new Alumno(nombre, nota);
 			}
 		teclado.nextLine();	
 		try {
@@ -62,6 +64,7 @@ public class MainAlumno {
 					System.out.println(n);
 					nota=pedirNota("Introduce la nota del alumno:");
 				}
+				alumno4=new Alumno(nombre, nota);
 			}
 		teclado.nextLine();	
 		try {
@@ -74,6 +77,7 @@ public class MainAlumno {
 					System.out.println(n);
 					nota=pedirNota("Introduce la nota del alumno:");
 				}
+				alumno5=new Alumno(nombre, nota);
 			}
 		teclado.nextLine();	
 		
