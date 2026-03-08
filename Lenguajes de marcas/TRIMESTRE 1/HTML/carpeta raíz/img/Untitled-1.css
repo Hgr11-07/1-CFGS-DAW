@@ -1,0 +1,34 @@
+/* 1. SELECTOR DE ELEMENTO (1 punto) */
+/* El más débil de todos */
+a {
+  color: red;
+}
+
+/* 2. SELECTOR DE CLASE (10 puntos) */
+/* Gana al rojo, el enlace se vería azul */
+.enlace-p {
+  color: blue;
+}
+
+/* 3. SELECTOR COMBINADO (11 puntos: 1 elemento + 1 clase) */
+/* Gana al azul, el enlace se vería verde */
+nav .enlace-p {
+  color: green;
+}
+
+/* 4. SELECTOR DE ID (100 puntos) */
+/* Salto de poder gigante. Gana al verde, el enlace se vería naranja */
+#enlace-unico {
+  color: orange;
+}
+
+/* 5. EL ESTILO EN LÍNEA (1000 puntos) */
+/* (Este no se escribe en el CSS, sino en el HTML que puse arriba) */
+/* Ganaría al naranja, el enlace se vería PLATEADO (silver) */
+
+/* 6. EL !important (creo que no lo hemos visto pero porsi) */
+/* Rompe toda la lógica anterior. Si esto existe, el enlace será NEGRO */
+/* No importa que sea un selector de etiqueta simple (1 punto) */
+a {
+  color: black !important;
+}
