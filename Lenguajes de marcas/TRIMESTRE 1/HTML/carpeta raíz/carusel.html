@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Hugo García Ruiz">
+<title>Carrusel básico</title>
+
+<style>
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.carousel > li {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  flex: 0 0 auto;
+  list-style: none;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.carousel img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Colores graduales del 1 al 10 */
+#img1 { background: #ffdddd; }
+#img2 { background: #ffd9cc; }
+#img3 { background: #ffd5bb; }
+#img4 { background: #ffd1aa; }
+#img5 { background: #ffcd99; }
+#img6 { background: #ffc988; }
+#img7 { background: #ffc577; }
+#img8 { background: #ffc166; }
+#img9 { background: #ffbd55; }
+#img10 { background: #ffb944; }
+</style>
+
+</head>
+
+<body>
+
+<ul class="carousel">
+
+  <li id="img1">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+         alt="Montañas iluminadas por el sol al amanecer">
+  </li>
+
+  <li id="img2">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+         alt="Bosque con niebla entre los árboles">
+  </li>
+
+  <li id="img3">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+         alt="Olas del mar rompiendo en la orilla">
+  </li>
+
+  <li id="img4">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Montañas nevadas bajo un cielo azul">
+  </li>
+
+  <li id="img5">
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+         alt="Campo verde con árboles y luz suave">
+  </li>
+
+  <li id="img6">
+    <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429"
+         alt="Lago tranquilo rodeado de montañas">
+  </li>
+
+  <li id="img7">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Paisaje montañoso con nieve y nubes">
+  </li>
+
+  <li id="img8">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Montañas nevadas con cielo despejado">
+  </li>
+
+  <li id="img9">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Cumbres nevadas iluminadas por el sol">
+  </li>
+
+  <li id="img10">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         alt="Montañas blancas bajo un cielo brillante">
+  </li>
+
+</ul>
+
+</body>
+</html>
