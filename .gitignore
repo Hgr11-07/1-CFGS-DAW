@@ -1,0 +1,7 @@
+*.iso
+bin/
+.settings/
+.metadata/
+*.class
+.project
+.classpath
