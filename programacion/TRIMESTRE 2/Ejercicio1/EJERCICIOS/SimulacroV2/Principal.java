@@ -60,6 +60,8 @@ public class Principal {
 				departamento=Departamento.valueOf(dep.toUpperCase());
 				incidencias=pedirIncidenciasDocumentos("¿Cuántas incidencias ha resuelto?: ");
 				empleado1[i]= new Programador(id, nombre, departamento, horas1, incidencias);
+				System.out.println("BIENVENIDO");
+				System.out.println();
 				break;
 			case 1:
 				id=pedirNombreIdDep("Introduce tu ID: ");
@@ -68,6 +70,8 @@ public class Principal {
 				departamento=Departamento.valueOf(dep.toUpperCase());
 				incidencias=pedirIncidenciasDocumentos("¿Cuántas incidencias ha resuelto?: ");
 				empleado1[i]= new Programador(id, nombre, departamento, horas2, incidencias);
+				System.out.println("BIENVENIDO");
+				System.out.println();
 				break;
 			case 2:
 				id=pedirNombreIdDep("Introduce tu ID: ");
@@ -76,6 +80,8 @@ public class Principal {
 				departamento=Departamento.valueOf(dep.toUpperCase());
 				documentosTramitados=pedirIncidenciasDocumentos("¿Cuantos documentos ha tramitado?");
 				empleado1[i]= new Administrativo(id, nombre, departamento, horas3, documentosTramitados);
+				System.out.println("BIENVENIDO");
+				System.out.println();
 				break;
 			case 3:
 				id=pedirNombreIdDep("Introduce tu ID: ");
@@ -84,47 +90,84 @@ public class Principal {
 				departamento=Departamento.valueOf(dep.toUpperCase());
 				documentosTramitados=pedirIncidenciasDocumentos("¿Cuantos documentos ha tramitado?");
 				empleado1[i]= new Administrativo(id, nombre, departamento, horas4, documentosTramitados);
+				System.out.println("BIENVENIDO");
+				System.out.println();
 				break;
 				
 			}
 		}
 		
-		for(int j=0; j<empleado1.length; j++) {
+		for(int i=0; i<empleado1.length; i++) {
 			
-			System.out.println("DATOS: "+empleado1[j]);
-			System.out.print("HORARIO COMPLETO: ");
-			empleado1[j].mostrarHorario();
-			System.out.println("HORAS TOTALES A LA SEMANA: " +empleado1[j].calcularHorasTotalesSemana());
-			System.out.println("PRODUCTIVIDAD: " +empleado1[j].calcularProductividad());
-			System.out.println("¿MERECE RECONOCIMIENTO? " +empleado1[j].mereceReconocimiento());
+			System.out.println("DATOS: "+empleado1[i]);
+			System.out.println("HORARIO COMPLETO: ");
+			empleado1[i].mostrarHorario();
+			System.out.println("HORAS TOTALES A LA SEMANA: " +empleado1[i].calcularHorasTotalesSemana());
+			System.out.println("PRODUCTIVIDAD: " +empleado1[i].calcularProductividad());
+			System.out.println("¿MERECE RECONOCIMIENTO? " +empleado1[i].mereceReconocimiento());
+			System.out.println();
 			
 		}
 		
 		double mayor=empleado1[0].calcularProductividad();
 		int indice=0;
 		
-		for (int k=0; k<empleado1.length; k++) {
-			if(mayor<empleado1[k].calcularProductividad()) {
-				mayor=empleado1[k].calcularProductividad();
-				indice=k;
+		for (int i=0; i<empleado1.length; i++) {
+			if(mayor<empleado1[i].calcularProductividad()) {
+				mayor=empleado1[i].calcularProductividad();
+				indice=i;
 				
 			}
 		}
 		
 		System.out.println("EMPLEADO CON MAYOR PRODUCTIVIDAD: " +empleado1[indice]);
 		
-		for (int l=0; l<empleado1.length; l++) {
-			if(empleado1[l] instanceof Programador) {
+		for (int i=0; i<empleado1.length; i++) {
+			if(empleado1[i] instanceof Programador) {
 				contP++;	
-			} else if(empleado1[l] instanceof Administrativo) {
+			} else if(empleado1[i] instanceof Administrativo) {
 				contA++;
 			}
 		}
 		
 		System.out.println("Hay " +contP+ " programadores y " +contA+ " administrativos.");
 		
-		double mediaManiana;
-		double mediaTarde;
+		double mediaManiana=0;
+		double mediaTarde=0;
+		
+		for(int i=0; i<empleado1.length; i++) {
+			for(int j=0; j<empleado1[i].getHorasTrabajadas().length; j++) {
+				for(int k=0; k<empleado1[i].getHorasTrabajadas()[j].length; k++) {
+					if(k==0)
+						mediaManiana+=empleado1[i].getHorasTrabajadas()[j][k];
+					else
+						mediaTarde+=empleado1[i].getHorasTrabajadas()[j][k];
+				}
+			}
+			
+		}
+		
+		mediaManiana/=20;
+		mediaTarde/=20;
+		
+		System.out.println("La media de horas trabajadas por la mañana es: " +mediaManiana);
+		System.out.println("La media de horas trabajadas por la tarde es: " +mediaTarde);
+		
+		double maximo=empleado1[0].calcularHorasTotalesDia(0);
+		int in=0;
+		int em=0;
+		
+		for(int i=0; i<empleado1.length; i++) {
+			for(int j=0; j<empleado1[i].getHorasTrabajadas().length; j++) {
+					if(empleado1[i].calcularHorasTotalesDia(j)>maximo) {
+						maximo=empleado1[i].calcularHorasTotalesDia(j);
+						in=j;
+						em=i;
+					}
+			}
+		}
+		
+		System.out.println("El empleado que mas horas trabajó en un día es " +empleado1[em].getNombre()+ " el día " +(in+1)+ " con un total de " +maximo);
 		
 	}
 	
@@ -141,6 +184,7 @@ public class Principal {
 		int n;
 		System.out.println(mensaje);
 		n=teclado.nextInt();
+		teclado.nextLine();
 		return n;
 	}
 

@@ -12,7 +12,7 @@ public abstract class Empleado implements Reconocible{
 		this.id=id;
 		this.nombre=nombre;
 		this.departamento=departamento;
-		this.horasTrabajadas= new double [5][2];
+		this.horasTrabajadas= horasTrabajadas;
 		
 	}
 	
@@ -34,7 +34,7 @@ public abstract class Empleado implements Reconocible{
 	
 	@Override
 	public String toString() {
-		return "ID: " +this.id+ " | NOMBRE: " +this.nombre+ " | DEPARTAMENTO: " +this.departamento+ " | HORAS TRABAJADAS: " +this.horasTrabajadas;
+		return "ID: " +this.id+ " | NOMBRE: " +this.nombre+ " | DEPARTAMENTO: " +this.departamento;
 	}
 	
 	public double calcularHorasTotalesSemana() {
@@ -73,6 +73,15 @@ public abstract class Empleado implements Reconocible{
 	public abstract double calcularProductividad();
 	
 	public void mostrarHorario() {
+		
+		for(int i=0; i<horasTrabajadas.length; i++) {
+			for(int j=0; j<horasTrabajadas[i].length; j++) {
+				if(j==0) 
+					System.out.println("Día: " +(i+1)+" | Turno de mañana: " +horasTrabajadas[i][j]);
+				else
+					System.out.println("Día: " +(i+1)+" | Turno de tarde: " +horasTrabajadas[i][j]);
+			}
+		}
 		
 	}
 

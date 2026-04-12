@@ -2,7 +2,7 @@ package SimulacroV2;
 
 public class Programador extends Empleado{
 	
-	int incidenciasResueltas;
+	private int incidenciasResueltas;
 	
 	public Programador(String id, String nombre, Departamento departamento, double horasTrabajadas[][], int incidenciasResueltas){
 		super(id, nombre, departamento, horasTrabajadas);
