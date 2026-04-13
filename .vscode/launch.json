@@ -1,0 +1,259 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio1",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio10",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio11",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio11",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio12",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio12",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio13",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio13",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio2",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio3",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio4",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio5",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio6",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio7",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio8",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Arrays.Ejercicio9",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/ArraysV2.Ejercicio1",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/ArraysV2.Ejercicio2",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/ArraysV2.Ejercicio3",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "Ejercicio1/CalculadoraTryCatch.Calculadora",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "MainCuentaBancaria",
+            "request": "launch",
+            "mainClass": "Ejercicio1/CuentaBancariaTryCatch.MainCuentaBancaria",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_1",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Ejercicio1.Ejercicio_1",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(2)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Ejercicio2.Ejercicio2",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(2)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Ejercicio3.Ejercicio3",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Excep",
+            "request": "launch",
+            "mainClass": "Ejercicio1/EjercicioExc.Excep",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Principal_7_1",
+            "request": "launch",
+            "mainClass": "Ejercicio1/EjercicioExc.Principal_7_1",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "MainProducto",
+            "request": "launch",
+            "mainClass": "Ejercicio1/EjercicioExtra.MainProducto",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "ExamenMain",
+            "request": "launch",
+            "mainClass": "Ejercicio1/ExamenTema4.ExamenMain",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3(3)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/POO3.Ejercicio3",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio4(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/POO4.Ejercicio4",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "MainLiga",
+            "request": "launch",
+            "mainClass": "Ejercicio1/POO5.MainLiga",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_1(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/POOv2_1.Ejercicio_1",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio_2",
+            "request": "launch",
+            "mainClass": "Ejercicio1/POOv2_2.Ejercicio_2",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2(3)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Poo2.Ejercicio2",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Practica1.Principal",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "MainAlumno",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Simulacro.MainAlumno",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "Principal(1)",
+            "request": "launch",
+            "mainClass": "Ejercicio1/SimulacroV2.Principal",
+            "projectName": "EJERCICIOS"
+        },
+        {
+            "type": "java",
+            "name": "MainTienda",
+            "request": "launch",
+            "mainClass": "Ejercicio1/Tienda.MainTienda",
+            "projectName": "EJERCICIOS"
+        }
+    ]
+}
