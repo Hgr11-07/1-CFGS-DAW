@@ -24,9 +24,30 @@ public class Mago extends Personaje{
 				break;
 			}
 		}
+	}
+	
+	public void lanzaHechizo(Personaje personaje, String hechizo) throws AtributosInvalidosException {
+		
+		personaje.setPVAct(personaje.getPVAct()-10);
+		
+		for(int i=0; i<hechizos.length; i++) {
+			
+			if(hechizo.equalsIgnoreCase(hechizos[i])){
+				hechizos[i]=null;
+			}
+		}
 		
 	}
 	
-	
+	@Override
+	public String toString() {
+	    String lista = "";
+	    for(int i = 0; i < hechizos.length; i++) {
+	        if(hechizos[i] != null) {
+	            lista += hechizos[i] + " ";
+	        }
+	    }
+	    return super.toString() + " | HECHIZOS: " + lista;
+	}
 	
 }
