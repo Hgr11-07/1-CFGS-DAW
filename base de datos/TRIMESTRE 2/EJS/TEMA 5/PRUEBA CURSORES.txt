@@ -1,0 +1,63 @@
+ENUNCIADO: 
+
+CREATE TABLE t1 (
+  id INT UNSIGNED PRIMARY KEY,
+  datos VARCHAR(16)
+);
+
+CREATE TABLE t2 (
+  id INT UNSIGNED
+);
+
+CREATE TABLE t3 (
+  datos VARCHAR(16),
+  id INT UNSIGNED
+);
+
+INSERT INTO t1 VALUES (1, 'A');
+INSERT INTO t1 VALUES (2, 'B');
+INSERT INTO t1 VALUES (30, 'C');
+
+INSERT INTO t2 VALUES (10);
+INSERT INTO t2 VALUES (20);
+INSERT INTO t2 VALUES (3);
+
+Vamos a rellenar la tercera tabla con el menor identificador entre las dos, y los datos de la primera 
+
+SOLUCION:
+
+DELIMITER $$
+
+CREATE OR REPLACE PROCEDURE pruebaCursor()
+BEGIN
+
+	DECLARE fin INT DEFAULT 0;
+	DECLARE columnasT1 ROW TYPE OF t1;
+    	DECLARE idB INT;
+	DECLARE curA CURSOR FOR SELECT id, datos FROM t1;
+	DECLARE curB CURSOR FOR SELECT id FROM t2;
+    
+	DECLARE CONTINUE HANDLER FOR NOT FOUND SET fin = 1;
+
+	OPEN curA;
+	OPEN curB;
+
+	WHILE fin = 0 DO
+    
+	FETCH curA INTO columnasT1;
+        FETCH curB INTO idB;
+        IF fin = 0 THEN
+        	IF columnasT1.id < idB THEN
+        		INSERT INTO t3 VALUES (columnasT1.datos, columnasT1.id);
+            ELSE
+            	INSERT INTO t3 VALUES (columnasT1.datos, idB);
+            END IF;
+        END IF;
+	END WHILE;
+
+	END $$
+
+DELIMITER ;
+
+CALL pruebaCursor();
+SELECT * FROM t3;
