@@ -102,14 +102,23 @@ public class Jugador extends PersonaLiga implements Entrenable{
 
 	@Override
 	public void entrenar() {
-		// TODO Auto-generated method stub
-		
+		nivelMecanico++;
+		nivelEstrategico++;
 	}
 
 	@Override
 	public double calcularRendimiento() {
 		double rendimiento;
-		rendimiento=(nivelMecanico)
-		return 0;
+		rendimiento=(nivelMecanico+nivelEstrategico)/2;
+		
+		if(partidasJugadas>0 && (double)mvpsTotales/partidasJugadas>=0.5) {
+			rendimiento+=5;
+		}
+		
+		if(rendimiento>10) {
+			rendimiento=10;
+		}
+		
+		return rendimiento;
 	}
 }

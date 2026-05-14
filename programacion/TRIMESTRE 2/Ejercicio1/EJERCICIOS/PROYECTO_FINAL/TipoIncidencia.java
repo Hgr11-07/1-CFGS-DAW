@@ -1,0 +1,5 @@
+package PROYECTO_FINAL;
+
+public enum TipoIncidencia {
+	SANCION, EXPULSION, ERROR_TECNICO, PARTIDO_APLAZADO
+}
